@@ -57,7 +57,7 @@ export default function GoogleDriveClone() {
     <div className="min-h-screen bg-gray-900 text-gray-100 p-8">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col sm:flex-row justify-between items-center mb-6 gap-4">
-          <h1 className="text-2xl font-bold">Google Drive Clone</h1>
+          <h1 className="text-2xl font-bold">Cloudify</h1>
           <SearchBar onSearch={handleSearch} />
           <Button onClick={handleUpload} className="bg-blue-600 hover:bg-blue-700 text-white">
             <Upload className="mr-2 h-4 w-4" /> Upload
